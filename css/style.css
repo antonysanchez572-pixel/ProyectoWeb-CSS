@@ -109,9 +109,15 @@ header{
 }
 .container{
     width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
     margin: auto;
     z-index: 20;
-    position: absolute;
+    position: relative;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
 }
 .centrado{
     display: block;
@@ -139,9 +145,26 @@ header{
     text-decoration: none;
     font-size: 500;
     font-family: 'poppins';
+    margin: 35px 1px;
 }
-
-
-
-
+@media screen and (max-width: 860px){
+       .mainbanner{
+        padding: 8em 6em;
+        top: 80px;
+}
+.mainbanner__boton{
+    display: block;
+    margin-bottom: 1em;
+}
+.mainbanner__data{
+    text-align: center;
+    margin: auto;
+}
+.mainbanner__titulo{
+    font-size: 2em;
+}
+.mainbanner__parrafo{
+    font-size: 1em;
+}
+}
 /* FIN DE BANER */
