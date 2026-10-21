@@ -223,6 +223,11 @@ header{
     background-color: var(--colorSecundario);
     color: #fff;
 }
+.cards__titulo-centrar{
+    text-align: center;
+    padding: 1,5em;
+
+}
 
 
 /* FIN DE CARSD */
