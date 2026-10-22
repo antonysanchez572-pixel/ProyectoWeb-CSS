@@ -85,7 +85,7 @@ header{
     position: relative;
     padding: 22em 14em;
     /* background-color: var(--colorSecundario); */
-    background: linear-gradient(to right,#fff ,red);
+    background: linear-gradient(to right, #663399);
     top: 61px;
 }
 
@@ -205,8 +205,8 @@ header{
 }
 
 .card__info{
-    background-color: var(--colorPrimario);
-    color: #fff;
+    background-color: #fff;
+    color: #EC111A;
     font-size: 1em;
     padding: 1em;
     margin-top: 1.5em;
@@ -217,6 +217,7 @@ header{
     font-weight: 600;
     font-family: 'poppins';
     transition: background-color .5s ease-in-out;
+    border: 2px solid #EC111A;
 }
 
 .card__info:hover{
