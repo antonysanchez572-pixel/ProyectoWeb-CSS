@@ -229,5 +229,31 @@ header{
 
 }
 
-
 /* FIN DE CARSD */
+
+/* INICIO DE FOOTER */
+footer{
+    background-color: var(--colorSombras);
+    color: #fff;
+    padding: 2.5em 0;
+}
+.iconos-pie{
+    font-size: 3em;
+}
+.iconos-pie:hover{
+    color: var(--colorPrimario);
+}
+
+.pie, .info{
+    font-family:'poppins';
+    font-weight: 400;
+    font-size: 1em;
+}
+
+.derechos{
+    background-color: var(--colorParrafos);
+    color: #fff;
+    font-family: 'poppins';
+    padding: 2em 0;
+}
+/* FIN DE FOOTER */
