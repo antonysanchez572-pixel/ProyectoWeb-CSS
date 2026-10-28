@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devlab - Contacto</title>
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+
+    <!-- LIBRERIA DE FUENTES -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+    <!-- FRAMEWORK DE BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+    <!-- LIBRERIA DE ICONOS -->
+    <script src="https://kit.fontawesome.com/812c8ee19a.js" crossorigin="anonymous"></script>
+
+    <!-- HOJA DE ESTILOS -->
+    <link rel="stylesheet" href="css/contactanos.css" />
+     
+    <script src="js/WE_MC_03_jquery.js"></script>
+</head>
+<body>
+
+   <!-- MENÚ DE NAVEGACIÓN -->
+    <header id="header">
+      <nav class="menu">
+        <div class="menu__logo">
+          <a href="index.html">
+            <img src="img/Logo.svg" alt="" class="img-fluid menu__img-logo" />
+          </a>
+          <a href="#" class="menu__btn-menu" id="btn-menu">
+            <i class="fa-solid fa-bars menu__icono-menu"></i>
+          </a>
+        </div>
+        <div class="menu__enlaces" id="enlaces">
+          <a href="index.html">INICIO</a>
+          <a href="cursos.html">CURSOS</a>
+          <a href="diplomados.html">DIPLOMADOS</a>
+          <a href="contactos.html">CONTACTOS</a>
+          <a href="registro.html">REGISTRO</a>
+          <a href="login.html">LOGIN</a>
+        </div>
+      </nav>
+    </header>
+    <!-- FIN DE MENÚ -->
+
+     <!-- Inicio de Banner -->
+  <div class="mainbanner">
+    <img src="img/banner-5.jpg" alt="Banner de contacto y cursos" class="mainbanner__img">
+
+    <div class="container">
+        <div class="row centrado">
+            <div class="mainbanner__data">
+                <h1 class="mainbanner__titulo">CONTÁCTANOS</h1>
+
+                <span class="mainbanner__subtitulo">Y aprende lo del futuro</span>
+              
+                <p class="mainbanner__parrafo">
+                    Especialízate donde quieras, con clases en vivo o aprendizaje autónomo <br> con expertos en el mundo laboral.
+                </p>
+                
+            </div>
+        </div>
+    </div>
+</div>
+    <!-- Fin de Banner -->
+     <br>
+
+    <!-- CONTENEDOR PRINCIPAL -->
+    <main class="main-content">
+        <section class="contact-container">
+            
+            <!-- Columna Izquierda: Información -->
+            <div class="contact-info">
+                <h2 class="info-title">Vamos a ponernos en contacto con nosotros</h2>
+                
+                <ul class="info-list">
+                    <li>
+                        <i class="fa-regular fa-envelope"></i>
+                        <span>antonysanchespena572@gmail.com</span>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span>Antony Ivan Sanchez Peña</span>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-phone"></i>
+                        <span>+51 902 659 488</span>
+                    </li>
+                </ul>
+
+                <div class="social-section">
+                    <p>Conéctate conmigo:</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+
+                <div class="circle-decoration"></div>
+            </div>
+
+            <!-- Columna Derecha: Formulario -->
+            <div class="contact-form">
+                <h2 class="form-title">Contacta con nosotros</h2>
+                <form action="" method="POST">
+                    
+                    <fieldset class="input-group">
+                        <legend>Usuario</legend>
+                        <input type="text" name="usuario" placeholder="Ingresa tu usuario" required />
+                    </fieldset>
+
+                    <fieldset class="input-group">
+                        <legend>Email</legend>
+                        <input type="email" name="email" placeholder="Ingresa tu correo" required />
+                    </fieldset>
+
+                    <fieldset class="input-group">
+                        <legend>Celular</legend>
+                        <input type="tel" name="celular" placeholder="Ingresa tu celular" required />
+                    </fieldset>
+
+                    <fieldset class="input-group textarea-group">
+                        <legend>Mensaje</legend>
+                        <textarea name="mensaje" placeholder="Escribe tu mensaje..." required></textarea>
+                    </fieldset>
+
+                    <button type="submit" class="btn-send">Enviar</button>
+                </form>
+            </div>
+
+        </section>
+    </main>
+
+    <!-- INICIO DE FOOTER -->
+    <footer>
+        <div class="container">
+            <div class="row align-items-center text-center text-md-start">
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <p class="pie m-0"><i class="fa-solid fa-mobile-screen iconos-pie me-2"></i> Contacto: +51 902 659 488 / +51 902 659 488 (Whatsapp)</p>
+                </div>
+                <div class="col-md-4 mb-3 mb-md-0 text-center">
+                    <p class="info m-0"><i class="fa-solid fa-envelope iconos-pie me-2"></i> E-Mail: antonysanchez@gmail.com</p>
+                </div>
+                <div class="col-md-4 text-md-end">
+                    <p class="info m-0"><i class="fa-solid fa-location-dot iconos-pie me-2"></i> Dirección: Lima - Perú</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="derechos text-center">
+        <p class="m-0">DEVLAB SOLUCIONES INFORMÁTICAS SAC @2022 - Todos los derechos reservados | Desarrollado por <a href="#" class="text-white text-decoration-underline">Antony Sanchez p.</a></p>
+    </div>
+    <!-- FIN DE FOOTER -->
+
+    <a href="https://w.app/qeftk3">
+   <i class="fa-brands fa-whatsapp iconoWS"></i> 
+
+</a>
+
+  
+     <script src="js/WE_MC_02_headroom.min.js"></script>
+     <script src="js/WE_MC_04_menu-flex.js"></script>
+
+</body>
+</html>
